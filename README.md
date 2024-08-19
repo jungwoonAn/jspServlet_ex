@@ -1,5 +1,5 @@
 # JSP_Servlet_ex
 
-### Web01_JSP & Servlet °³¿ä
-### Web02_¼­ºí¸´ ±âÃÊ
-### Web03_JSP ±âº»
+### Web01_JSP & Servlet ê°œìš”
+### Web02_ì„œë¸”ë¦¿ ê¸°ì´ˆ
+### Web03_JSP ê¸°ë³¸
