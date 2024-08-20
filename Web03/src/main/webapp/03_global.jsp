@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- 선언문에 선언한 변수와 스크립트릿 변수의 성격 파악하기 -->    
+<%-- 선언문에 선언한 변수와 스크립트릿 변수의 성격 파악하기 --%>    
 <%!
 	int global_cnt = 0;
 %>

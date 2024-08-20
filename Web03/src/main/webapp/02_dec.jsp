@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- 선언문에 변수 선언과 메소드 정의하기 -->
+<%-- 선언문에 변수 선언과 메소드 정의하기 --%>
 <%!
 	String str = "안녕하세요!";
 	int a=5, b=-5;

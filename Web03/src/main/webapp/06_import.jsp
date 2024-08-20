@@ -2,6 +2,7 @@
 <%@page import="java.util.Calendar"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%-- 오늘 날짜 출력하기 --%>    
 <% 
 Calendar date = Calendar.getInstance();
 SimpleDateFormat today = new SimpleDateFormat("yyyy년 MM월 dd일");

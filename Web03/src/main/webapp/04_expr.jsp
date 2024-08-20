@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- 표현식(expression)의 사용 예 -->
+<%-- 표현식(expression)의 사용 예 --%>
 <%!
 	String str = "안녕하세요!";
 	int a=5, b=-5;
