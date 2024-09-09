@@ -163,13 +163,9 @@
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
       	<Context docBase="Web09" path="/Web09" reloadable="true" source="org.eclipse.jst.jee.server:Web09">
-      	  <Resource name="jdbc/myoracle" auth="Container"
-              type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
-              url="jdbc:oracle:thin:@127.0.0.1:1521:XE"
-              username="admin" password="admin123" maxTotal="20" maxIdle="10"
-              maxWaitMillis="-1"/>
+      	  <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="admin123" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:XE" username="admin"/>
       	</Context>
-      </Host>
+      <Context docBase="Web10" path="/Web10" reloadable="true" source="org.eclipse.jst.jee.server:Web10"/></Host>
     </Engine>
   </Service>
 </Server>
