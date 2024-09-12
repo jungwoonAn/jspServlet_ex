@@ -18,7 +18,7 @@ public class DBManager {
 			Context initContext = new InitialContext();
 			Context envContext = (Context)initContext.lookup("java:/comp/env");
 			// jdbc/myoracle이란 이름의 객체를 찾아서 DataSource가 받는다.
-			DataSource ds = (DataSource)envContext.lookup("jdbc/myorlcle");
+			DataSource ds = (DataSource)envContext.lookup("jdbc/myoracle");
 			// ds가 생성되었으므로 Connection을 구한다.
 			conn = ds.getConnection();
 		}catch(Exception e) {
