@@ -23,14 +23,14 @@
                 <img src="upload/noimage.gif">
               </c:when>
               <c:otherwise>
-                <img src="upload/%{product.pictureUrl}">
+                <img src="upload/${product.pictureUrl}">
               </c:otherwise>
             </c:choose>
           </td>
           <td>
             <table>
               <tr>
-                <th>상품명</th>
+                <th style="width:80px">상품명</th>
                 <td><input type="text" name="name" size="80" value="${product.name}"></td>
               </tr>
               <tr>
@@ -50,7 +50,7 @@
               </tr>
             </table>
             <br>
-            <button type="submit" onclic="return productCheck()">등록</button>
+            <button type="submit" onclic="return productCheck()">수정</button>
             <button type="reset">취소</button>
             <button type="button" onclick="location.href='productList.do'">목록</button>          
           </td>

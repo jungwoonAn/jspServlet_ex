@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 #wrap {
-	width: 700px;
+	width: 970px;
 	margin: 0 auto;
 }
 
-h1 {color: green;}
+h2 {
+	color: green;
+}
 
 table {
 	width: 100%;
@@ -14,13 +16,13 @@ table {
 	line-height: 24px;
 }
 
-table, td, th {
+td, th {
 	border: #d3d3d3 solid 1px;
 	padding: 5px;
 }
 
 th {
-	background:yellowgreen;
+	background: yellowgree;
 }
 
 img {
@@ -29,9 +31,11 @@ img {
 }
 
 a {
-	text-decoration: none; color: #333;
+	text-decoration: none; 
+	color: #333;
 }
 
 a:hover {
-	text-decoration: underline; color: green;
+	text-decoration : underline;
+	color: green;
 }
