@@ -38,10 +38,10 @@
       </tr>
     </table>
     <br><br>
-    <button type="button" onclic="open_win('BoardServlet?command=board_check_pass_form&num=${board.num}', 'update')">수정</button>
-    <button type="button" onclic="open_win('BoardServlet?command=board_check_pass_form&num=${board.num}', 'delete')">삭제</button>
-    <button type="button" onclic="location.href='BoardServlet?command=board_list'">목록</button>
-    <button type="button" onclic="location.href='BoardServlet?command=board_write_form'">등록</button>
+    <button type="button" onclick="open_win('BoardServlet?command=board_check_pass_form&num=${board.num}', 'update')">수정</button>
+    <button type="button" onclick="open_win('BoardServlet?command=board_check_pass_form&num=${board.num}', 'delete')">삭제</button>
+    <button type="button" onclick="location.href='BoardServlet?command=board_list'">목록</button>
+    <button type="button" onclick="location.href='BoardServlet?command=board_write_form'">등록</button>
   </div>
 
 </body>

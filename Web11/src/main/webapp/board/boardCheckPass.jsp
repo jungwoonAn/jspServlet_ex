@@ -11,7 +11,7 @@
     <h2>비밀번호 확인</h2>
     <form name="frm" action="BoardServlet" method="get">
       <input type="hidden" name="command" value="board_check_pass">
-      <input type="hidden" name="num" value="${board.num}">
+      <input type="hidden" name="num" value="${param.num}">
       <table style="width:80%">
         <tr>
           <th>비밀번호</th>
@@ -21,7 +21,7 @@
         </tr>
       </table>
       <br><br>
-      <button type="submit" onclic="return passCheck()">확인</button>
+      <button type="submit" onclick="return passCheck()">확인</button>
       <br><br>
       <p>${message}</p>      
     </form>

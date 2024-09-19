@@ -15,7 +15,7 @@
     <table class="list">
       <tr>
         <td colspan="5" style="border: #fff; text-align: right">
-          <a href="BorderServlet?command=board_write_form">게시글 등록</a>
+          <a href="BoardServlet?command=board_write_form">게시글 등록</a>
         </td>
       </tr>
       <tr>
